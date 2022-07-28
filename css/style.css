@@ -1,0 +1,19 @@
+.coustom-banner {
+  position: absolute;
+  top: 40%;
+  padding: 0;
+}
+@media only screen and (max-width: 768px) {
+  .coustom-banner {
+    position: absolute;
+    top: 3%;
+    bottom: 2%;
+    font-size: 70%;
+  }
+  .coustom-banner h1 {
+    font-size: 1.8em;
+  }
+  .coustom-banner p {
+    font-size: 0.875em;
+  }
+}
